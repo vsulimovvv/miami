@@ -1,0 +1,1139 @@
+<section class="catalog">
+  <div class="catalog__filters">
+    <div class="container">
+      <form class="form-filters">
+        <div class="form-filters__inner">
+          <div class="form-filters__wrap">
+            <label
+              class="form-filters__group form-filters__group--search-field"
+            >
+              <input
+                class="form-filters__input"
+                type="text"
+                placeholder="City, address, zip"
+              />
+              <button class="form-filters__btn" type="button">
+                <svg class="form-search__icon">
+                  <use xlink:href="img/sprite.svg#search"></use>
+                </svg>
+              </button>
+            </label>
+          </div>
+
+          <div class="form-filters__wrap">
+            <label class="form-filters__group form-filters__group--price-block">
+              <select class="form-filters__select">
+                <option value="Price">Price</option>
+                <option value="Bed and Bath">Bed and Bath</option>
+                <option value="Price">Price</option>
+              </select>
+            </label>
+
+            <div class="price-block">
+              <div class="price-block__cols">
+                <div class="price-block__col">
+                  <p class="price-block__name">Minimum</p>
+                  <select class="price-block__select form-select">
+                    <option value="no">No min</option>
+                    <option value="500,000">$ 500,000</option>
+                    <option value="500,000">$ 600,000</option>
+                    <option value="500,000">$ 700,000</option>
+                    <option value="500,000">$ 800,000</option>
+                    <option value="500,000">$ 900,000</option>
+                  </select>
+                </div>
+                <div class="price-block__col">
+                  <p class="price-block__name">Maximum</p>
+                  <select class="price-block__select form-select">
+                    <option value="no">No max</option>
+                    <option value="500,000">$ 500,000</option>
+                    <option value="500,000">$ 600,000</option>
+                    <option value="500,000">$ 700,000</option>
+                    <option value="500,000">$ 800,000</option>
+                    <option value="500,000">$ 900,000</option>
+                  </select>
+                </div>
+              </div>
+              <button class="price-block__btn btn" type="button">Apply</button>
+            </div>
+          </div>
+          <div class="form-filters__wrap">
+            <label class="form-filters__group form-filters__group--rooms-block">
+              <select class="form-filters__select">
+                <option value="Price">Bed and Bath</option>
+                <option value="Bed and Bath">Bed and Bath</option>
+                <option value="Price">Price</option>
+              </select>
+            </label>
+
+            <div class="rooms-block">
+              <div class="rooms-block__box">
+                <p class="rooms-block__heading">Number of Bedrooms</p>
+
+                <div class="rooms-block__wrap">
+                  <p class="rooms-block__text">Bedrooms</p>
+
+                  <div class="rooms-block__btns">
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" checked />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> Any </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 1+ </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 2+ </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 3+ </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 4+ </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 5+ </span>
+                    </label>
+                  </div>
+
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" required />
+                    <span class="checkbox__box"></span>
+                    <span class="checkbox__text"> Use exactmatch </span>
+                  </label>
+                </div>
+              </div>
+              <div class="rooms-block__box">
+                <p class="rooms-block__heading">Number of Bathrooms</p>
+
+                <div class="rooms-block__wrap">
+                  <p class="rooms-block__text">Bedrooms</p>
+
+                  <div class="rooms-block__btns">
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" checked />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> Any </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 1+ </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 2+ </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 3+ </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 4+ </span>
+                    </label>
+                    <label class="checkbox">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> 5+ </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-filter__wrap">
+            <label class="form-filters__group">
+              <select class="form-filters__select from-select">
+                <option value="Price">Any Type</option>
+                <option value="Bed and Bath">Bed and Bath</option>
+                <option value="Price">Price</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-filter__wrap">
+            <label class="form-filters__group">
+              <select class="form-filters__select from-select">
+                <option value="Price">More Filters</option>
+                <option value="Bed and Bath">Bed and Bath</option>
+                <option value="Price">Price</option>
+              </select>
+            </label>
+          </div>
+          <button class="form-filters__btn-clear" type="button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"
+              />
+            </svg>
+            Clear
+          </button>
+          <button class="form-filters__btn-save" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M4 3H17L20.7071 6.70711C20.8946 6.89464 21 7.149 21 7.41421V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM12 18C13.6569 18 15 16.6569 15 15C15 13.3431 13.6569 12 12 12C10.3431 12 9 13.3431 9 15C9 16.6569 10.3431 18 12 18ZM5 5V9H15V5H5Z"
+              ></path>
+            </svg>
+            Save
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="catalog__result-text">Showing 1 to 24 of 3,998 Properties.</div>
+
+  <div class="catalog__content">
+    <div class="catalog__map map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.39567869062!2d-80.31185933089962!3d25.782538872285397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2z0JzQsNC50LDQvNC4LCDQpNC70L7RgNC40LTQsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1695819494115!5m2!1sru!2sru"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <div class="catalog__right">
+      <ul class="catalog__list">
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--new">
+                New listing
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--sale">
+                Sale
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--new">
+                New listing
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--new">
+                New listing
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--new">
+                New listing
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--new">
+                New listing
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--new">
+                New listing
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--new">
+                New listing
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--new">
+                New listing
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="prev"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/2.jpg" alt="img" />
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <img src="img/properties/3.jpg" alt="img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+
+      <div class="pagination">
+        <p class="pagination__text">Page 1 of 29</p>
+
+        <ul class="pagination__list">
+          <li class="pagination__item">
+            <button class="pagination__btn" type="button">1</button>
+          </li>
+          <li class="pagination__item">
+            <button class="pagination__btn" type="button">2</button>
+          </li>
+          <li class="pagination__item">
+            <button class="pagination__btn" type="button">3</button>
+          </li>
+          <li class="pagination__item">
+            <button class="pagination__btn" type="button">4</button>
+          </li>
+          <li class="pagination__item">
+            <button class="pagination__btn" type="button">5</button>
+          </li>
+          <li class="pagination__item">
+            <button class="pagination__btn" type="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </li>
+          <li class="pagination__item">
+            <button class="pagination__btn" type="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,2127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- nouislider -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.css"
+/>
+
+<!-- Choices JS  -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
+/>
+
+<!-- fancybox -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+/>
+
+<!-- Nice Select -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+/>
+
+<!-- Custom Link -->
+<link rel="stylesheet" href="css/style.css" />
+
+<title>Miami</title>
+
+  </head>
+
+  <body>
+    <div class="popup popup--info">
+  <div class="popup__container">
+    <button class="popup__close" type="button" aria-label="Закрыть">
+      <svg width="15" height="15">
+        <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="popup__wrapper">
+      <h3 class="popup__title">More Information</h3>
+      <p class="popup__text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+
+      <form class="form-submit">
+        <label class="form-submit__group">
+          <input
+            class="form-submit__input"
+            type="text"
+            placeholder="Name*"
+            required
+          />
+        </label>
+        <label class="form-submit__group">
+          <input
+            class="form-submit__input"
+            type="email"
+            placeholder="E-mail*"
+            required
+          />
+        </label>
+        <label class="form-submit__group">
+          <input
+            class="form-submit__input"
+            type="number"
+            placeholder="Phone*"
+            required
+          />
+        </label>
+        <label class="form-submit__group form-submit__group--big">
+          <textarea class="form-submit__input" placeholder="Message">
+I am interested in 495 Brickell
+Ave #3204 Miami, FL 33131
+            
+          </textarea>
+        </label>
+
+        <p class="form-submit__text">* Required fields</p>
+
+        <button class="form-submit__btn btn" type="button">
+          REQUEST INFORMATION
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="popup popup--property">
+  <div class="popup__container">
+    <button class="popup__close" type="button" aria-label="Закрыть">
+      <svg width="15" height="15">
+        <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="popup__wrapper">
+      <div class="property">
+        <div class="property__top">
+          <div class="property__btns">
+            <a class="property__btn" href="#">Photo</a>
+            <a class="property__btn" href="#">Map View</a>
+            <a class="property__btn" href="#">Virtual Tour</a>
+          </div>
+          <div class="property__slider swiper">
+            <button class="swiper-button-prev" type="button" aria-label="prev">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                ></path>
+              </svg>
+            </button>
+            <button class="swiper-button-next" type="button" aria-label="next">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                ></path>
+              </svg>
+            </button>
+
+            <div class="property__slides swiper-wrapper">
+              <div class="property_img swiper-slide">
+                <img src="img/aventura-homes/1.jpg" alt="img" />
+              </div>
+              <div class="property__img swiper-slide">
+                <img src="img/aventura-homes/1.jpg" alt="img" />
+              </div>
+              <div class="property__img swiper-slide">
+                <img src="img/aventura-homes/1.jpg" alt="img" />
+              </div>
+              <div class="home-card__img swiper-slide">
+                <img src="img/aventura-homes/1.jpg" alt="img" />
+              </div>
+              <div class="property__img swiper-slide">
+                <img src="img/aventura-homes/1.jpg" alt="img" />
+              </div>
+              <div class="property__img swiper-slide">
+                <img src="img/aventura-homes/1.jpg" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="property__numbers">
+            <div class="property__item">
+              <p class="property__number">$1,295,000</p>
+              <p class="property__descr">
+                Est. Payment <span class="text-blue">$4,488.86/mo</span>
+              </p>
+            </div>
+            <div class="property__item">
+              <p class="property__number">2</p>
+              <p class="property__descr">BEDROOM(S)</p>
+            </div>
+            <div class="property__item">
+              <p class="property__number">2</p>
+              <p class="property__descr">BATHROOM(S)</p>
+            </div>
+            <div class="property__item">
+              <p class="property__number">1,500</p>
+              <p class="property__descr">SIZE SQFT</p>
+            </div>
+            <div class="property__item">
+              <p class="property__number">$863</p>
+              <p class="property__descr">$/SQFT</p>
+            </div>
+            <button class="property__fav-btn" type="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                />
+              </svg>
+              <span class="property__text">SAVE</span>
+            </button>
+            <button class="property__btn-info btn" type="button">
+              REQUEST INFORMATION
+            </button>
+          </div>
+
+          <div class="property__info">
+            <p class="property__text">
+              SPECTACULAR AND BEST FLOOR PLAN apartment with 2Beds2Baths split
+              plan plus denfoyer at the unique ICON BRICKELL. With fantastic
+              Pool Bay views. Modern kitchen with top of the line appliances.
+              Blackout shades in Bedrooms. Washer dryer in unit. Building has
+              great amenities: Large pool, Spa, Gym, Billiard, Movie rooms,
+              Massage rooms, Virtual GOLF. Excellent restaurants alternatives
+              Cipriani Cantina La Veinte. Walking distance to Brickell City
+              Centre. Unit could be sold fully furnished. Furniture is from
+              Artefacto and Habitus.
+            </p>
+            <button class="property__more-btn more-btn" type="button">
+              More Information
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </button>
+            <p class="property__text hidden">
+              SPECTACULAR AND BEST FLOOR PLAN apartment with 2Beds2Baths split
+              plan plus denfoyer at the unique ICON BRICKELL. With fantastic
+              Pool Bay views. Modern kitchen with top of the line appliances.
+              Blackout shades in Bedrooms. Washer dryer in unit. Building has
+              great amenities: Large pool, Spa, Gym, Billiard, Movie rooms,
+              Massage rooms, Virtual GOLF. Excellent restaurants alternatives
+              Cipriani Cantina La Veinte. Walking distance to Brickell City
+              Centre. Unit could be sold fully furnished. Furniture is from
+              Artefacto and Habitus.
+            </p>
+          </div>
+
+          <div class="property__details apartment-details">
+            <h3 class="apartment-details__title">
+              A11346494 Condo # for Sale in Aventura, Aventura
+            </h3>
+            <div class="apartment-details__wrapper">
+              <ul class="apartment-details__list">
+                <li class="apartment-item">
+                  <img src="img/home.png" alt="img" />
+                  <div class="apartment-item__info">
+                    <b> Listed on:</b>
+                    <p>Feb 22, 2023</p>
+                  </div>
+                </li>
+                <li class="apartment-item">
+                  <img src="img/house.png" alt="img" />
+                  <div class="apartment-item__info">
+                    <b>Year Built: </b>
+                    <p>1991</p>
+                  </div>
+                </li>
+                <li class="apartment-item">
+                  <img src="img/calendar.png" alt="img" />
+                  <div class="apartment-item__info">
+                    <b> Tax Year: </b>
+                    <p>2022</p>
+                  </div>
+                </li>
+                <li class="apartment-item">
+                  <img src="img/tax.png" alt="img" />
+                  <div class="apartment-item__info">
+                    <b> Taxes: </b>
+                    <p>$12,692 per year</p>
+                  </div>
+                </li>
+                <li class="apartment-item">
+                  <img src="img/wall-clock.png" alt="img" />
+                  <div class="apartment-item__info">
+                    <b> Days on Market: </b>
+                    <p>92</p>
+                  </div>
+                </li>
+                <li class="apartment-item">
+                  <img src="img/smart-lock.png" alt="img" />
+                  <div class="apartment-item__info">
+                    <b>Occupancy: </b>
+                    <p>n/a</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="apartment-specs">
+            <div class="apartment-specs__inner">
+              <div class="apartment-specs__col">
+                <div class="apartment-specs__top">
+                  <img
+                    class="apartment-specs__icon"
+                    src="img/specs-icon/1.png"
+                    alt="img"
+                  />
+                  <span>Parking:</span>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Garage Spaces</div>
+                  <div class="apartment-specs__right">2</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Open Parking</div>
+                  <div class="apartment-specs__right">Yes</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Covered Spaces</div>
+                  <div class="apartment-specs__right">2</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Parking Features</div>
+                  <div class="apartment-specs__right">
+                    Driveway, Paver Block
+                  </div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Attached Garage</div>
+                  <div class="apartment-specs__right">Yes</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left"></div>
+                  <div class="apartment-specs__right"></div>
+                </div>
+              </div>
+              <div class="apartment-specs__col">
+                <div class="apartment-specs__top">
+                  <img
+                    class="apartment-specs__icon"
+                    src="img/specs-icon/1.png"
+                    alt="img"
+                  />
+                  <span>Interior:</span>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Flooring</div>
+                  <div class="apartment-specs__right">Wood</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Appliances</div>
+                  <div class="apartment-specs__right">
+                    Dryer, Microwave, Washer
+                  </div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Cooling</div>
+                  <div class="apartment-specs__right">Electric</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Heating</div>
+                  <div class="apartment-specs__right">Electric</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Furnished</div>
+                  <div class="apartment-specs__right">Furniture For Sale</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Interior Features</div>
+                  <div class="apartment-specs__right">
+                    Built-in Features, Closet Cabinetry, Cooking Island, Attic,
+                    Den/Library/Office
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="apartment-specs__inner">
+              <div class="apartment-specs__col">
+                <div class="apartment-specs__top">
+                  <img
+                    class="apartment-specs__icon"
+                    src="img/specs-icon/1.png"
+                    alt="img"
+                  />
+                  <span>Community:</span>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Garage Spaces</div>
+                  <div class="apartment-specs__right">2</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Open Parking</div>
+                  <div class="apartment-specs__right">Yes</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Covered Spaces</div>
+                  <div class="apartment-specs__right">2</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Parking Features</div>
+                  <div class="apartment-specs__right">
+                    Driveway, Paver Block
+                  </div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Attached Garage</div>
+                  <div class="apartment-specs__right">Yes</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left"></div>
+                  <div class="apartment-specs__right"></div>
+                </div>
+              </div>
+              <div class="apartment-specs__col">
+                <div class="apartment-specs__top">
+                  <img
+                    class="apartment-specs__icon"
+                    src="img/specs-icon/1.png"
+                    alt="img"
+                  />
+                  <span>LOT:</span>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Flooring</div>
+                  <div class="apartment-specs__right">Wood</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Appliances</div>
+                  <div class="apartment-specs__right">
+                    Dryer, Microwave, Washer
+                  </div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Cooling</div>
+                  <div class="apartment-specs__right">Electric</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Heating</div>
+                  <div class="apartment-specs__right">Electric</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Furnished</div>
+                  <div class="apartment-specs__right">Furniture For Sale</div>
+                </div>
+                <div class="apartment-specs__row">
+                  <div class="apartment-specs__left">Interior Features</div>
+                  <div class="apartment-specs__right">
+                    Built-in Features, Closet Cabinetry, Cooking Island, Attic,
+                    Den/Library/Office
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="similar-properties">
+        <div class="container">
+          <h2 class="similar-properties__title">Similar Properties For Sale</h2>
+
+          <div class="similar-properties__slider swiper">
+            <button class="swiper-button-prev" type="button" aria-label="prev">
+              <svg>
+                <use xlink:href="img/sprite.svg#arrow-right"></use>
+              </svg>
+            </button>
+            <button class="swiper-button-next" type="button" aria-label="next">
+              <svg>
+                <use xlink:href="img/sprite.svg#arrow-right"></use>
+              </svg>
+            </button>
+            <ul class="similar-properties__slides swiper-wrapper">
+              <li class="similar-properties__slide swiper-slide">
+                <article class="properties-card">
+                  <a class="properties-card__top" href="#">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </a>
+                  <div class="properties-card__body">
+                    <div class="properties-card__heading">
+                      <h3 class="properties-card__title">
+                        <a href="#">Armani Tower</a>
+                      </h3>
+                      <b class="properties-card__price">$ 5,480,000</b>
+                    </div>
+                    <div class="properties-card__details">
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bed.png"
+                          alt="bed"
+                        />
+                        5 Beds
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bathroom.png"
+                          alt="bed"
+                        />
+                        5.5 Baths
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/area.png"
+                          alt="bed"
+                        />
+                        2,682 ft2 (249 m2)
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="similar-properties__slide swiper-slide">
+                <article class="properties-card">
+                  <a class="properties-card__top" href="#">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </a>
+                  <div class="properties-card__body">
+                    <div class="properties-card__heading">
+                      <h3 class="properties-card__title">
+                        <a href="#">Armani Tower</a>
+                      </h3>
+                      <b class="properties-card__price">$ 5,480,000</b>
+                    </div>
+                    <div class="properties-card__details">
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bed.png"
+                          alt="bed"
+                        />
+                        5 Beds
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bathroom.png"
+                          alt="bed"
+                        />
+                        5.5 Baths
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/area.png"
+                          alt="bed"
+                        />
+                        2,682 ft2 (249 m2)
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="similar-properties__slide swiper-slide">
+                <article class="properties-card">
+                  <a class="properties-card__top" href="#">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </a>
+                  <div class="properties-card__body">
+                    <div class="properties-card__heading">
+                      <h3 class="properties-card__title">
+                        <a href="#">Armani Tower</a>
+                      </h3>
+                      <b class="properties-card__price">$ 5,480,000</b>
+                    </div>
+                    <div class="properties-card__details">
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bed.png"
+                          alt="bed"
+                        />
+                        5 Beds
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bathroom.png"
+                          alt="bed"
+                        />
+                        5.5 Baths
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/area.png"
+                          alt="bed"
+                        />
+                        2,682 ft2 (249 m2)
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="similar-properties__slide swiper-slide">
+                <article class="properties-card">
+                  <a class="properties-card__top" href="#">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </a>
+                  <div class="properties-card__body">
+                    <div class="properties-card__heading">
+                      <h3 class="properties-card__title">
+                        <a href="#">Armani Tower</a>
+                      </h3>
+                      <b class="properties-card__price">$ 5,480,000</b>
+                    </div>
+                    <div class="properties-card__details">
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bed.png"
+                          alt="bed"
+                        />
+                        5 Beds
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bathroom.png"
+                          alt="bed"
+                        />
+                        5.5 Baths
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/area.png"
+                          alt="bed"
+                        />
+                        2,682 ft2 (249 m2)
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="similar-properties__slide swiper-slide">
+                <article class="properties-card">
+                  <a class="properties-card__top" href="#">
+                    <img src="img/properties/1.jpg" alt="img" />
+                  </a>
+                  <div class="properties-card__body">
+                    <div class="properties-card__heading">
+                      <h3 class="properties-card__title">
+                        <a href="#">Armani Tower</a>
+                      </h3>
+                      <b class="properties-card__price">$ 5,480,000</b>
+                    </div>
+                    <div class="properties-card__details">
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bed.png"
+                          alt="bed"
+                        />
+                        5 Beds
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/bathroom.png"
+                          alt="bed"
+                        />
+                        5.5 Baths
+                      </div>
+                      <div class="properties-card__detail">
+                        <img
+                          width="12"
+                          height="12"
+                          src="img/area.png"
+                          alt="bed"
+                        />
+                        2,682 ft2 (249 m2)
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+
+    <div class="site-wrapper">
+      <header class="header">
+  <!-- Mobile Menu -->
+  <div class="overlay"></div>
+
+  <div class="mobile-menu">
+    <div class="mobile-menu__top">
+      <a class="mobile-menu__logo logo" href="#">
+        <img src="img/logo.png" alt="логотип" />
+      </a>
+      <form class="mobile-form-search">
+        <div class="mobile-form-search__group">
+          <svg class="mobile-form-search__icon">
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+          <input
+            class="mobile-form-search__input"
+            type="text"
+            placeholder="Start typing for a quick property search"
+          />
+        </div>
+      </form>
+      <button
+        class="mobile-menu__close"
+        type="button"
+        aria-label="Закрыть меню"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 6L18 18"
+            stroke="#f1ebda"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M18 6L6 18"
+            stroke="#f1ebda"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-menu__head">
+      <div class="flags">
+        <ul class="flags__list">
+          <li class="flags__item">
+            <button class="flags__btn active" type="button">
+              <img src="img/flags/usa.png" width="24" height="20" alt="usa" />
+            </button>
+          </li>
+          <li class="flags__item">
+            <button class="flags__btn" type="button">
+              <img
+                src="img/flags/china.png"
+                width="24"
+                height="20"
+                alt="china"
+              />
+            </button>
+          </li>
+          <li class="flags__item">
+            <button class="flags__btn" type="button">
+              <img
+                src="img/flags/spain.png"
+                width="24"
+                height="20"
+                alt="spain"
+              />
+            </button>
+          </li>
+          <li class="flags__item">
+            <button class="flags__btn" type="button">
+              <img
+                src="img/flags/russia.png"
+                width="24"
+                height="20"
+                alt="russia"
+              />
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="socials">
+        <li class="socials__item">
+          <a class="socials__link" href="#" aria-label="whatsapp">
+            <svg>
+              <use xlink:href="img/sprite.svg#whatsapp"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a class="socials__link" href="#" aria-label="telegram">
+            <svg>
+              <use xlink:href="img/sprite.svg#telegram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="mobile-menu__menu menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="#"> Properties </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#"> communities </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#"> new developments </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#"> Commercial </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#"> EB-5 </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#"> News </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#"> contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Mobile Menu -->
+
+  <div class="container">
+    <div class="header__top">
+      <div class="header__left">
+        <button
+          class="header__toggle header__toggle--mobile"
+          type="button"
+          aria-label="Open menu"
+        >
+          <span class="header__toggle-line"></span>
+          <span class="header__toggle-line"></span>
+          <span class="header__toggle-line"></span>
+        </button>
+        <a class="header__logo" href="#">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+
+        <button
+          class="header__search-btn"
+          type="button"
+          aria-label="open search field"
+        >
+          <svg>
+            <use xlink:href="img/sprite.svg#search"></use>
+          </svg>
+        </button>
+
+        <form class="form-search">
+          <div class="form-search__group">
+            <svg class="form-search__icon">
+              <use xlink:href="img/sprite.svg#search"></use>
+            </svg>
+            <input
+              class="form-search__input"
+              type="text"
+              placeholder="Start typing for a quick property search"
+            />
+          </div>
+        </form>
+      </div>
+
+      <div class="header__right">
+        <a class="phone-block" href="tel:305.339.4265">
+          <svg>
+            <use xlink:href="img/sprite.svg#phone"></use>
+          </svg>
+          <div class="phone-block__info">
+            <span>miami office</span>
+            <span>305.339.4265</span>
+          </div>
+        </a>
+
+        <div class="header__flags flags">
+          <ul class="flags__list">
+            <li class="flags__item">
+              <button class="flags__btn active" type="button">
+                <img src="img/flags/usa.png" width="24" height="20" alt="usa" />
+              </button>
+            </li>
+            <li class="flags__item">
+              <button class="flags__btn" type="button">
+                <img
+                  src="img/flags/china.png"
+                  width="24"
+                  height="20"
+                  alt="china"
+                />
+              </button>
+            </li>
+            <li class="flags__item">
+              <button class="flags__btn" type="button">
+                <img
+                  src="img/flags/spain.png"
+                  width="24"
+                  height="20"
+                  alt="spain"
+                />
+              </button>
+            </li>
+            <li class="flags__item">
+              <button class="flags__btn" type="button">
+                <img
+                  src="img/flags/russia.png"
+                  width="24"
+                  height="20"
+                  alt="russia"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="header__socials socials">
+          <li class="socials__item">
+            <a class="socials__link" href="#" aria-label="whatsapp">
+              <svg>
+                <use xlink:href="img/sprite.svg#whatsapp"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#" aria-label="telegram">
+              <svg>
+                <use xlink:href="img/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav class="header__bottom">
+      <div class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#"> Properties </a>
+
+            <div class="dropdown">
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Our Exclusive Listings
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Single Family Homes
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Condos
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    New Construction
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Commercial Real Estate Miami
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Rentals
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#"> communities </a>
+
+            <div class="dropdown">
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Our Exclusive Listings
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Single Family Homes
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Condos
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    New Construction
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Commercial Real Estate Miami
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Rentals
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#"> new developments </a>
+
+            <div class="dropdown">
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Our Exclusive Listings
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Single Family Homes
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Condos
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    New Construction
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Commercial Real Estate Miami
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Rentals
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#"> Commercial </a>
+            <div class="dropdown">
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Our Exclusive Listings
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Single Family Homes
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Condos
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    New Construction
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Commercial Real Estate Miami
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Rentals
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#"> EB-5 </a>
+            <div class="dropdown">
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Our Exclusive Listings
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Single Family Homes
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Condos
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    New Construction
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Commercial Real Estate Miami
+
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    Miami Rentals
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#"> News </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#"> contact</a>
+          </li>
+        </ul>
+      </div>
+      <button class="header__toggle" type="button" aria-label="Open menu">
+        <span class="header__toggle-line"></span>
+        <span class="header__toggle-line"></span>
+        <span class="header__toggle-line"></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+
+      <main class="main">
+        <section class="miami-estate">
+  <div class="container">
+    <div class="miami-estate__top">
+      <h2 class="miami-estate__title">Miami Real Estate Insights</h2>
+      <!-- <p>
+        As a real estate investor, or someone who’s into the real estate
+        business, one of the most effective ways to keep up with the latest news
+        and strategies is to listen to other real estate investors’ experiences,
+        challenges, mistakes, and successes.
+      </p> -->
+    </div>
+
+    <ul class="miami-estate__list">
+      <li class="miami-estate__item">
+        <article class="estate-card">
+          <button
+            class="estate-card__play-btn"
+            type="button"
+            aria-label="play video"
+            data-fancybox
+            data-src="https://www.youtube.com/watch?v=Z0AXjUy1_gY"
+            data-caption="How to buy real estate in dubai"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <a class="estate-card__top" href="#">
+            <img src="img/estates/1.jpg" alt="img" />
+          </a>
+          <div class="estate-card__body">
+            <p class="estate-card__date">3 июн 2023</p>
+            <h3 class="estate-card__title">
+              <a href="#">How to buy real estate in dubai</a>
+            </h3>
+            <p class="estate-card__text">
+              We are opening a new season of AX podcasts with an episode about
+              the main stage of buying real estate in Dubai – consultation with
+              an agent.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="miami-estate__item">
+        <article class="estate-card">
+          <button
+            class="estate-card__play-btn"
+            type="button"
+            aria-label="play video"
+            data-fancybox
+            data-src="https://www.youtube.com/watch?v=Z0AXjUy1_gY"
+            data-caption="How to buy real estate in dubai"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <a class="estate-card__top" href="#">
+            <img src="img/estates/2.jpg" alt="img" />
+          </a>
+          <div class="estate-card__body">
+            <p class="estate-card__date">3 июн 2023</p>
+            <h3 class="estate-card__title">
+              <a href="#">How to buy real estate in dubai</a>
+            </h3>
+            <p class="estate-card__text">
+              We are opening a new season of AX podcasts with an episode about
+              the main stage of buying real estate in Dubai – consultation with
+              an agent.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="miami-estate__item">
+        <article class="estate-card">
+          <button
+            class="estate-card__play-btn"
+            type="button"
+            aria-label="play video"
+            data-fancybox
+            data-src="https://www.youtube.com/watch?v=Z0AXjUy1_gY"
+            data-caption="How to buy real estate in dubai"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <a class="estate-card__top" href="#">
+            <img src="img/estates/3.jpg" alt="img" />
+          </a>
+          <div class="estate-card__body">
+            <p class="estate-card__date">3 июн 2023</p>
+            <h3 class="estate-card__title">
+              <a href="#">How to buy real estate in dubai</a>
+            </h3>
+            <p class="estate-card__text">
+              We are opening a new season of AX podcasts with an episode about
+              the main stage of buying real estate in Dubai – consultation with
+              an agent.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="miami-estate__item">
+        <article class="estate-card">
+          <button
+            class="estate-card__play-btn"
+            type="button"
+            aria-label="play video"
+            data-fancybox
+            data-src="https://www.youtube.com/watch?v=Z0AXjUy1_gY"
+            data-caption="How to buy real estate in dubai"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <a class="estate-card__top" href="#">
+            <img src="img/estates/4.jpg" alt="img" />
+          </a>
+          <div class="estate-card__body">
+            <p class="estate-card__date">3 июн 2023</p>
+            <h3 class="estate-card__title">
+              <a href="#">How to buy real estate in dubai</a>
+            </h3>
+            <p class="estate-card__text">
+              We are opening a new season of AX podcasts with an episode about
+              the main stage of buying real estate in Dubai – consultation with
+              an agent.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="miami-estate__item">
+        <article class="estate-card">
+          <button
+            class="estate-card__play-btn"
+            type="button"
+            aria-label="play video"
+            data-fancybox
+            data-src="https://www.youtube.com/watch?v=Z0AXjUy1_gY"
+            data-caption="How to buy real estate in dubai"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <a class="estate-card__top" href="#">
+            <img src="img/estates/5.jpg" alt="img" />
+          </a>
+          <div class="estate-card__body">
+            <p class="estate-card__date">3 июн 2023</p>
+            <h3 class="estate-card__title">
+              <a href="#">How to buy real estate in dubai</a>
+            </h3>
+            <p class="estate-card__text">
+              We are opening a new season of AX podcasts with an episode about
+              the main stage of buying real estate in Dubai – consultation with
+              an agent.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="miami-estate__item">
+        <article class="estate-card">
+          <button
+            class="estate-card__play-btn"
+            type="button"
+            aria-label="play video"
+            data-fancybox
+            data-src="https://www.youtube.com/watch?v=Z0AXjUy1_gY"
+            data-caption="How to buy real estate in dubai"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <a class="estate-card__top" href="#">
+            <img src="img/estates/6.jpg" alt="img" />
+          </a>
+          <div class="estate-card__body">
+            <p class="estate-card__date">3 июн 2023</p>
+            <h3 class="estate-card__title">
+              <a href="#">How to buy real estate in dubai</a>
+            </h3>
+            <p class="estate-card__text">
+              We are opening a new season of AX podcasts with an episode about
+              the main stage of buying real estate in Dubai – consultation with
+              an agent.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="miami-estate__item">
+        <article class="estate-card">
+          <button
+            class="estate-card__play-btn"
+            type="button"
+            aria-label="play video"
+            data-fancybox
+            data-src="https://www.youtube.com/watch?v=Z0AXjUy1_gY"
+            data-caption="How to buy real estate in dubai"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <a class="estate-card__top" href="#">
+            <img src="img/estates/1.jpg" alt="img" />
+          </a>
+          <div class="estate-card__body">
+            <p class="estate-card__date">3 июн 2023</p>
+            <h3 class="estate-card__title">
+              <a href="#">How to buy real estate in dubai</a>
+            </h3>
+            <p class="estate-card__text">
+              We are opening a new season of AX podcasts with an episode about
+              the main stage of buying real estate in Dubai – consultation with
+              an agent.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="miami-estate__item">
+        <article class="estate-card">
+          <button
+            class="estate-card__play-btn"
+            type="button"
+            aria-label="play video"
+            data-fancybox
+            data-src="https://www.youtube.com/watch?v=Z0AXjUy1_gY"
+            data-caption="How to buy real estate in dubai"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <a class="estate-card__top" href="#">
+            <img src="img/estates/2.jpg" alt="img" />
+          </a>
+          <div class="estate-card__body">
+            <p class="estate-card__date">3 июн 2023</p>
+            <h3 class="estate-card__title">
+              <a href="#">How to buy real estate in dubai</a>
+            </h3>
+            <p class="estate-card__text">
+              We are opening a new season of AX podcasts with an episode about
+              the main stage of buying real estate in Dubai – consultation with
+              an agent.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="miami-estate__item">
+        <article class="estate-card">
+          <button
+            class="estate-card__play-btn"
+            type="button"
+            aria-label="play video"
+            data-fancybox
+            data-src="https://www.youtube.com/watch?v=Z0AXjUy1_gY"
+            data-caption="How to buy real estate in dubai"
+          >
+            <svg>
+              <use xlink:href="img/sprite.svg#play-button"></use>
+            </svg>
+          </button>
+          <a class="estate-card__top" href="#">
+            <img src="img/estates/3.jpg" alt="img" />
+          </a>
+          <div class="estate-card__body">
+            <p class="estate-card__date">3 июн 2023</p>
+            <h3 class="estate-card__title">
+              <a href="#">How to buy real estate in dubai</a>
+            </h3>
+            <p class="estate-card__text">
+              We are opening a new season of AX podcasts with an episode about
+              the main stage of buying real estate in Dubai – consultation with
+              an agent.
+            </p>
+          </div>
+        </article>
+      </li>
+    </ul>
+
+    <div class="pagination">
+      <p class="pagination__text">Page 1 of 29</p>
+
+      <ul class="pagination__list">
+        <li class="pagination__item">
+          <button class="pagination__btn" type="button">1</button>
+        </li>
+        <li class="pagination__item">
+          <button class="pagination__btn" type="button">2</button>
+        </li>
+        <li class="pagination__item">
+          <button class="pagination__btn" type="button">3</button>
+        </li>
+        <li class="pagination__item">
+          <button class="pagination__btn" type="button">4</button>
+        </li>
+        <li class="pagination__item">
+          <button class="pagination__btn" type="button">5</button>
+        </li>
+        <li class="pagination__item">
+          <button class="pagination__btn" type="button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.25 4.5l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </button>
+        </li>
+        <li class="pagination__item">
+          <button class="pagination__btn" type="button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M11.25 4.5l7.5 7.5-7.5 7.5m-6-15l7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+        <section class="signup" style="background-image: url('img/signup-bg.jpg')">
+  <div class="container">
+    <div class="signup__wrapper">
+      <div class="signup__left">
+        <h3 class="signup__title section-title">
+          Sing up <span>for updates</span>
+        </h3>
+        <p class="signup__text">
+          Subscribe to receive the latest real estate market updates, exclusive
+          new lstings, architecture and design inspiration and more.
+        </p>
+      </div>
+      <form class="signup__form form-signup">
+        <label class="form-signup__group">
+          <svg>
+            <use xlink:href="img/sprite.svg#email"></use>
+          </svg>
+          <input
+            class="form-signup__input"
+            type="text"
+            placeholder="Enter your phone"
+          />
+        </label>
+        <button class="form-signup__btn btn btn--arrow" type="button">
+          Send
+          <svg>
+            <use xlink:href="img/sprite.svg#arrow-right"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      </main>
+      <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__left">
+        <a class="footer__logo" href="#">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+        <a class="phone-block phone-block--mobile" href="tel:305.339.4265">
+          <div class="phone-block__info">
+            <svg>
+              <use xlink:href="img/sprite.svg#phone"></use>
+            </svg>
+            <span>miami office</span>
+          </div>
+          <span class="phone-block__numbers">305.339.4265</span>
+        </a>
+      </div>
+
+      <div class="footer__cols">
+        <div class="footer__col">
+          <p class="footer__name">Properties</p>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Apartments</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">At home</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Apartments</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Penthouses</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Villas</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <p class="footer__name">SERVICES</p>
+          <ul class="footer__list footer__list--double">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Oceanfront Condos</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Commercial Real Estate</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Single Family Homes</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Most Exclusive</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">New Developments</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Foreclosures</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Instant Estimate</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Just Listed</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Market Trends </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Miami's Tallest Buildings</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <p class="footer__name">About</p>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">About us </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#"> Partners</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Contacts</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <p class="footer__name">CONTACTS</p>
+          <a class="phone-block" href="tel:305.339.4265">
+            <div class="phone-block__info">
+              <svg>
+                <use xlink:href="img/sprite.svg#phone"></use>
+              </svg>
+              <span>miami office</span>
+            </div>
+            <span class="phone-block__numbers">305.339.4265</span>
+          </a>
+
+          <div class="footer__info">
+            <div class="footer__email">
+              E-mail:
+              <a href="">info@viva.com</a>
+            </div>
+            <div class="footer__schedule">Mon – Sat: from 9.00-18.00</div>
+          </div>
+          <ul class="socials">
+            <li class="socials__item">
+              <a class="socials__link" href="#">
+                <svg>
+                  <use xlink:href="img/sprite.svg#telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#">
+                <svg>
+                  <use xlink:href="img/sprite.svg#whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#">
+                <svg>
+                  <use xlink:href="img/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#">
+                <svg>
+                  <use xlink:href="img/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials__item">
+              <a class="socials__link" href="#">
+                <svg>
+                  <use xlink:href="img/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2023 Aviva Estate. Privacy policу.</p>
+      <a class="company" href="https://razrabotka-saita.ru/" target="_blank">
+        <span class="company__text">Website development</span>
+        <img
+          class="company__img"
+          src="img/logo-company.png"
+          alt="АдвансМедиа"
+        />
+      </a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+
+    <!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- nouislider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.min.js"></script>
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Choices JS -->
+<script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+
+<!-- Input Mask -->
+<script
+  src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"
+  type="text/javascript"
+></script>
+
+<!-- fancybox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<!-- Nice Select -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+
+<!-- JS -->
+<script src="js/main.min.js"></script>
+
+  </body>
+</html>
