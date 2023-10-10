@@ -844,7 +844,7 @@ Ave #3204 Miami, FL 33131
           <span class="header__toggle-line"></span>
         </button>
         <a class="header__logo" href="#">
-          <img src="img/logo.png" alt="logo" />
+          <img src="img/logo.png" width="70" height="80" alt="logo" />
         </a>
 
         <button
@@ -885,12 +885,12 @@ Ave #3204 Miami, FL 33131
         <div class="header__flags flags">
           <ul class="flags__list">
             <li class="flags__item">
-              <button class="flags__btn active" type="button">
+              <button class="flags__btn active" type="button" aria-label="USA">
                 <img src="img/flags/usa.png" width="24" height="20" alt="usa" />
               </button>
             </li>
             <li class="flags__item">
-              <button class="flags__btn" type="button">
+              <button class="flags__btn" type="button" aria-label="China">
                 <img
                   src="img/flags/china.png"
                   width="24"
@@ -900,7 +900,7 @@ Ave #3204 Miami, FL 33131
               </button>
             </li>
             <li class="flags__item">
-              <button class="flags__btn" type="button">
+              <button class="flags__btn" type="button" aria-label="Spain">
                 <img
                   src="img/flags/spain.png"
                   width="24"
@@ -910,7 +910,7 @@ Ave #3204 Miami, FL 33131
               </button>
             </li>
             <li class="flags__item">
-              <button class="flags__btn" type="button">
+              <button class="flags__btn" type="button" aria-label="Russia">
                 <img
                   src="img/flags/russia.png"
                   width="24"
@@ -924,7 +924,7 @@ Ave #3204 Miami, FL 33131
 
         <ul class="header__socials socials">
           <li class="socials__item">
-            <a class="socials__link" href="#" aria-label="whatsapp">
+            <a class="socials__link" href="#" aria-label="tiktok">
               <svg>
                 <use xlink:href="img/sprite.svg#tiktok"></use>
               </svg>
@@ -1571,7 +1571,11 @@ Ave #3204 Miami, FL 33131
                 type="text"
                 placeholder="City, address, zip"
               />
-              <button class="form-filters__btn" type="button">
+              <button
+                class="form-filters__btn"
+                type="button"
+                aria-label="Search"
+              >
                 <svg class="form-search__icon">
                   <use xlink:href="img/sprite.svg#search"></use>
                 </svg>
@@ -1798,7 +1802,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-prev"
                   type="button"
-                  aria-label="prev"
+                  aria-label="previous-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -1809,7 +1814,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-next"
                   type="button"
-                  aria-label="next"
+                  aria-label="next-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -1917,7 +1923,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-prev"
                   type="button"
-                  aria-label="prev"
+                  aria-label="previous-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -1928,7 +1935,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-next"
                   type="button"
-                  aria-label="next"
+                  aria-label="next-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2033,7 +2041,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-prev"
                   type="button"
-                  aria-label="prev"
+                  aria-label="previous-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2044,126 +2053,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-next"
                   type="button"
-                  aria-label="next"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path
-                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
-                    ></path>
-                  </svg>
-                </button>
-
-                <div class="properties-card__slides swiper-wrapper">
-                  <div class="properties-card__img swiper-slide">
-                    <picture>
-                      <source
-                        srcset="img/properties/1.webp"
-                        type="image/webp"
-                      />
-                      <img
-                        src="img/properties/1.jpg"
-                        width="370"
-                        height="280"
-                        alt="img"
-                      />
-                    </picture>
-                  </div>
-                  <div class="properties-card__img swiper-slide">
-                    <picture>
-                      <source
-                        srcset="img/properties/1.webp"
-                        type="image/webp"
-                      />
-                      <img
-                        src="img/properties/2.jpg"
-                        width="370"
-                        height="280"
-                        alt="img"
-                      />
-                    </picture>
-                  </div>
-                  <div class="properties-card__img swiper-slide">
-                    <picture>
-                      <source
-                        srcset="img/properties/3.webp"
-                        type="image/webp"
-                      />
-                      <img
-                        src="img/properties/2.jpg"
-                        width="370"
-                        height="280"
-                        alt="img"
-                      />
-                    </picture>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="properties-card__body">
-              <div class="properties-card__heading">
-                <div class="properties-card__head">
-                  <h3 class="properties-card__title">Armani Tower</h3>
-                  <p class="properties-card__address">
-                    19563 NE 36th Pl, Aventura, FL, 33180
-                  </p>
-                </div>
-                <b class="properties-card__price">$ 5,480,000</b>
-              </div>
-              <div class="properties-card__details">
-                <div class="properties-card__detail">
-                  <img width="12" height="12" src="img/bed.png" alt="bed" />
-                  5 Beds
-                </div>
-                <div class="properties-card__detail">
-                  <img
-                    width="12"
-                    height="12"
-                    src="img/bathroom.png"
-                    alt="bed"
-                  />
-                  5.5 Baths
-                </div>
-                <div class="properties-card__detail">
-                  <img width="12" height="12" src="img/area.png" alt="bed" />
-                  2,682 ft2 (249 m2)
-                </div>
-              </div>
-            </div>
-          </article>
-        </li>
-        <li class="catalog__item">
-          <article class="properties-card">
-            <div class="properties-card__top">
-              <span class="properties-card__badge properties-card__badge--new">
-                New listing
-              </span>
-              <button
-                class="properties-card__btn-fav"
-                type="button"
-                aria-label="Add to favorites"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                  <path
-                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
-                  ></path>
-                </svg>
-              </button>
-              <div class="properties-card__slider card-slider swiper">
-                <button
-                  class="swiper-button-prev"
+                  aria-label="next-slide"
                   type="button"
-                  aria-label="prev"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path
-                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
-                    ></path>
-                  </svg>
-                </button>
-                <button
-                  class="swiper-button-next"
-                  type="button"
-                  aria-label="next"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2271,7 +2162,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-prev"
                   type="button"
-                  aria-label="prev"
+                  aria-label="previous-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2282,7 +2174,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-next"
                   type="button"
-                  aria-label="next"
+                  aria-label="next-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2390,7 +2283,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-prev"
                   type="button"
-                  aria-label="prev"
+                  aria-label="previous-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2401,7 +2295,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-next"
                   type="button"
-                  aria-label="next"
+                  aria-label="next-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2509,7 +2404,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-prev"
                   type="button"
-                  aria-label="prev"
+                  aria-label="previous-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2520,7 +2416,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-next"
                   type="button"
-                  aria-label="next"
+                  aria-label="next-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2628,7 +2525,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-prev"
                   type="button"
-                  aria-label="prev"
+                  aria-label="previous-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2639,7 +2537,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-next"
                   type="button"
-                  aria-label="next"
+                  aria-label="next-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2747,7 +2646,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-prev"
                   type="button"
-                  aria-label="prev"
+                  aria-label="previous-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2758,7 +2658,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-next"
                   type="button"
-                  aria-label="next"
+                  aria-label="next-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2866,7 +2767,8 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-prev"
                   type="button"
-                  aria-label="prev"
+                  aria-label="previous-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -2877,7 +2779,129 @@ Ave #3204 Miami, FL 33131
                 <button
                   class="swiper-button-next"
                   type="button"
-                  aria-label="next"
+                  aria-label="next-slide"
+                  type="button"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M12.1717 12.0005L9.34326 9.17203L10.7575 7.75781L15.0001 12.0005L10.7575 16.2431L9.34326 14.8289L12.1717 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+
+                <div class="properties-card__slides swiper-wrapper">
+                  <div class="properties-card__img swiper-slide">
+                    <picture>
+                      <source
+                        srcset="img/properties/1.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="img/properties/1.jpg"
+                        width="370"
+                        height="280"
+                        alt="img"
+                      />
+                    </picture>
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <picture>
+                      <source
+                        srcset="img/properties/1.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="img/properties/2.jpg"
+                        width="370"
+                        height="280"
+                        alt="img"
+                      />
+                    </picture>
+                  </div>
+                  <div class="properties-card__img swiper-slide">
+                    <picture>
+                      <source
+                        srcset="img/properties/3.webp"
+                        type="image/webp"
+                      />
+                      <img
+                        src="img/properties/2.jpg"
+                        width="370"
+                        height="280"
+                        alt="img"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="properties-card__body">
+              <div class="properties-card__heading">
+                <div class="properties-card__head">
+                  <h3 class="properties-card__title">Armani Tower</h3>
+                  <p class="properties-card__address">
+                    19563 NE 36th Pl, Aventura, FL, 33180
+                  </p>
+                </div>
+                <b class="properties-card__price">$ 5,480,000</b>
+              </div>
+              <div class="properties-card__details">
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/bed.png" alt="bed" />
+                  5 Beds
+                </div>
+                <div class="properties-card__detail">
+                  <img
+                    width="12"
+                    height="12"
+                    src="img/bathroom.png"
+                    alt="bed"
+                  />
+                  5.5 Baths
+                </div>
+                <div class="properties-card__detail">
+                  <img width="12" height="12" src="img/area.png" alt="bed" />
+                  2,682 ft2 (249 m2)
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+        <li class="catalog__item">
+          <article class="properties-card">
+            <div class="properties-card__top">
+              <span class="properties-card__badge properties-card__badge--new">
+                New listing
+              </span>
+              <button
+                class="properties-card__btn-fav"
+                type="button"
+                aria-label="Add to favorites"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path
+                    d="M12.001 4.52853C14.35 2.42 17.98 2.49 20.2426 4.75736C22.5053 7.02472 22.583 10.637 20.4786 12.993L11.9999 21.485L3.52138 12.993C1.41705 10.637 1.49571 7.01901 3.75736 4.75736C6.02157 2.49315 9.64519 2.41687 12.001 4.52853ZM18.827 6.1701C17.3279 4.66794 14.9076 4.60701 13.337 6.01687L12.0019 7.21524L10.6661 6.01781C9.09098 4.60597 6.67506 4.66808 5.17157 6.17157C3.68183 7.66131 3.60704 10.0473 4.97993 11.6232L11.9999 18.6543L19.0201 11.6232C20.3935 10.0467 20.319 7.66525 18.827 6.1701Z"
+                  ></path>
+                </svg>
+              </button>
+              <div class="properties-card__slider card-slider swiper">
+                <button
+                  class="swiper-button-prev"
+                  type="button"
+                  aria-label="previous-slide"
+                  type="button"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                      d="M11.8284 12.0005L14.6569 14.8289L13.2426 16.2431L9 12.0005L13.2426 7.75781L14.6569 9.17203L11.8284 12.0005Z"
+                    ></path>
+                  </svg>
+                </button>
+                <button
+                  class="swiper-button-next"
+                  type="button"
+                  aria-label="next-slide"
+                  type="button"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
@@ -3067,7 +3091,7 @@ Ave #3204 Miami, FL 33131
     <div class="footer__top">
       <div class="footer__left">
         <a class="footer__logo" href="#">
-          <img src="img/logo.png" alt="logo" />
+          <img src="img/logo.png" width="100" height="100" alt="logo" />
         </a>
         <a class="phone-block phone-block--mobile" href="tel:305.339.4265">
           <div class="phone-block__info">
@@ -3174,42 +3198,42 @@ Ave #3204 Miami, FL 33131
           </div>
           <ul class="socials">
             <li class="socials__item">
-              <a class="socials__link" href="#">
+              <a class="socials__link" href="#" aria-label="tiktok">
                 <svg>
                   <use xlink:href="img/sprite.svg#tiktok"></use>
                 </svg>
               </a>
             </li>
             <li class="socials__item">
-              <a class="socials__link" href="#">
+              <a class="socials__link" href="#" aria-label="telegram">
                 <svg>
                   <use xlink:href="img/sprite.svg#telegram"></use>
                 </svg>
               </a>
             </li>
             <li class="socials__item">
-              <a class="socials__link" href="#">
+              <a class="socials__link" href="#" aria-label="whatsapp">
                 <svg>
                   <use xlink:href="img/sprite.svg#whatsapp"></use>
                 </svg>
               </a>
             </li>
             <li class="socials__item">
-              <a class="socials__link" href="#">
+              <a class="socials__link" href="#" aria-label="instagram">
                 <svg>
                   <use xlink:href="img/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="socials__item">
-              <a class="socials__link" href="#">
+              <a class="socials__link" href="#" aria-label="facebook">
                 <svg>
                   <use xlink:href="img/sprite.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="socials__item">
-              <a class="socials__link" href="#">
+              <a class="socials__link" href="#" aria-label="youtube">
                 <svg>
                   <use xlink:href="img/sprite.svg#youtube"></use>
                 </svg>
@@ -3226,6 +3250,8 @@ Ave #3204 Miami, FL 33131
         <img
           class="company__img"
           src="img/logo-company.png"
+          width="140"
+          height="23"
           alt="АдвансМедиа"
         />
       </a>
