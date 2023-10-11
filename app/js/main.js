@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', () => {
   //   // * ===== Mask input
   //   $('input[type="tel"]').mask('+7 (999) 999-99-99');
 
-  (function screen() {
+  function screen() {
     const filtersForm = document.querySelector('.form-filters');
     const inputDropdown = document.querySelectorAll('.input-dropdown');
     const roomsBlock = document.querySelectorAll('.rooms-block');
@@ -22,9 +22,27 @@ window.addEventListener('DOMContentLoaded', () => {
           item.style.top = '60px';
           item.style.bottom = 'unset';
         });
+      } else {
+        inputDropdown.forEach((item) => {
+          item.style.bottom = '60px';
+          item.style.top = 'unset';
+        });
+        priceBlock.forEach((item) => {
+          item.style.bottom = '60px';
+          item.style.top = 'unset';
+        });
+        roomsBlock.forEach((item) => {
+          item.style.bottom = '60px';
+          item.style.top = 'unset';
+        });
       }
     }
-  })();
+
+    console.log('w h', window.screen.height / 2);
+    console.log('block h', filtersForm.getBoundingClientRect().top);
+  }
+
+  window.addEventListener('scroll', screen);
 
   // * ===== Nice Select
   $('select').niceSelect();

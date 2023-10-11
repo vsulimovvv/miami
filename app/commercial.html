@@ -1571,13 +1571,45 @@ Ave #3204 Miami, FL 33131
     <div class="contianer">
       <form class="form-filters">
         <div class="form-filters__inner">
-          <label class="form-filters__group">
-            <select class="form-filters__select">
-              <option value="Price">for sale/for rent</option>
-              <option value="Bed and Bath">for sale/for rent</option>
-              <option value="Price">for sale/for rent</option>
-            </select>
-          </label>
+          <div class="form-filters__wrap">
+            <label
+              class="form-filters__group form-filters__group--for-sale-block"
+            >
+              <select class="form-filters__select">
+                <option value="Price">for sale/for rent</option>
+              </select>
+            </label>
+            <div class="for-sale-block">
+              <div class="for-sale-block__box">
+                <div class="for-sale-block__wrap">
+                  <div class="for-sale-block__btns">
+                    <label class="checkbox">
+                      <input
+                        class="checkbox__input"
+                        type="radio"
+                        name="for-sale"
+                        checked
+                      />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> for sale </span>
+                    </label>
+                    <label class="checkbox">
+                      <input
+                        class="checkbox__input"
+                        type="radio"
+                        name="for-sale"
+                      />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> for rent </span>
+                    </label>
+                  </div>
+                  <button class="for-sale-block__btn btn" type="button">
+                    Apply
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
           <label class="form-filters__group">
             <select class="form-filters__select">
               <option value="Price">Search all types for sale</option>
