@@ -2,4 +2,4 @@
 
 ### Страницы
 
-https://vsulimovvv.github.io/miami/app/index.html
+https://vsulimovvv.github.io/miami/app/pages.html
