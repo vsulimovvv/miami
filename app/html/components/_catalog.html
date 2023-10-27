@@ -110,7 +110,7 @@
                     </label>
                   </div>
 
-                  <label class="checkbox">
+                  <label class="checkbox checkbox--bg-blue">
                     <input class="checkbox__input" type="checkbox" required />
                     <span class="checkbox__box"></span>
                     <span class="checkbox__text"> Use exactmatch </span>
@@ -159,7 +159,7 @@
               </div>
             </div>
           </div>
-          <div class="form-filter__wrap">
+          <div class="form-filters__wrap">
             <label class="form-filters__group form-filters__group--any-type">
               <select class="form-filters__select from-select">
                 <option value="Price">Any Type</option>
@@ -171,7 +171,7 @@
                 <div class="any-type__top">
                   <p class="any-type__heading">Home Type</p>
 
-                  <label class="checkbox checkbox--all">
+                  <label class="checkbox checkbox--bg-blue checkbox--all">
                     <input class="checkbox__input" type="checkbox" checked />
                     <span class="checkbox__box"></span>
                     <span class="checkbox__text"> Select All </span>
@@ -180,37 +180,37 @@
 
                 <div class="any-type__wrap">
                   <div class="any-type__btns">
-                    <label class="checkbox">
+                    <label class="checkbox checkbox--bg-blue">
                       <input class="checkbox__input" type="checkbox" checked />
                       <span class="checkbox__box"></span>
                       <span class="checkbox__text"> Houses </span>
                     </label>
-                    <label class="checkbox">
+                    <label class="checkbox checkbox--bg-blue">
                       <input class="checkbox__input" type="checkbox" checked />
                       <span class="checkbox__box"></span>
                       <span class="checkbox__text"> Townhomes </span>
                     </label>
-                    <label class="checkbox">
+                    <label class="checkbox checkbox--bg-blue">
                       <input class="checkbox__input" type="checkbox" checked />
                       <span class="checkbox__box"></span>
                       <span class="checkbox__text"> Multi-family </span>
                     </label>
-                    <label class="checkbox">
+                    <label class="checkbox checkbox--bg-blue">
                       <input class="checkbox__input" type="checkbox" checked />
                       <span class="checkbox__box"></span>
                       <span class="checkbox__text"> Condos/Co-ops </span>
                     </label>
-                    <label class="checkbox">
+                    <label class="checkbox checkbox--bg-blue">
                       <input class="checkbox__input" type="checkbox" checked />
                       <span class="checkbox__box"></span>
                       <span class="checkbox__text"> Lost/Land </span>
                     </label>
-                    <label class="checkbox">
+                    <label class="checkbox checkbox--bg-blue">
                       <input class="checkbox__input" type="checkbox" checked />
                       <span class="checkbox__box"></span>
                       <span class="checkbox__text"> Apartments </span>
                     </label>
-                    <label class="checkbox">
+                    <label class="checkbox checkbox--bg-blue">
                       <input class="checkbox__input" type="checkbox" checked />
                       <span class="checkbox__box"></span>
                       <span class="checkbox__text"> Manufactured </span>
@@ -222,14 +222,284 @@
               </div>
             </div>
           </div>
-          <div class="form-filter__wrap">
-            <label class="form-filters__group">
+          <div class="form-filters__wrap">
+            <label
+              class="form-filters__group form-filters__group--more-filters"
+            >
               <select class="form-filters__select from-select">
-                <option value="Price">More Filters</option>
-                <option value="Bed and Bath">Bed and Bath</option>
-                <option value="Price">Price</option>
+                <option value="filter">More Filters</option>
               </select>
             </label>
+            <div class="more-filters">
+              <div class="more-filters__box">
+                <div class="more-filters__top">
+                  <p class="more-filters__heading">MORE FILTERS</p>
+
+                  <div class="more-filters__wrap">
+                    <div class="more-filters__text">Max HOA</div>
+                    <select class="more-filters__select">
+                      <option value="any">Any</option>
+                      <option value="any">Any</option>
+                      <option value="any">Any</option>
+                      <option value="any">Any</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="more-filters__box">
+                <p class="more-filters__heading">Property Status</p>
+
+                <div class="more-filters__wrap">
+                  <div class="more-filters__checkboxes">
+                    <label class="checkbox checkbox--bg-blue">
+                      <input class="checkbox__input" type="checkbox" checked />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"> Coming Soon </span>
+                    </label>
+                    <label class="checkbox checkbox--bg-blue">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text"
+                        >Accepting backup offers
+                      </span>
+                    </label>
+                    <label class="checkbox checkbox--bg-blue">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text">
+                        Pending & under contract
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="more-filters__box">
+                <p class="more-filters__heading">Tours</p>
+
+                <div class="more-filters__wrap">
+                  <div class="more-filters__checkboxes">
+                    <label class="checkbox checkbox--bg-blue">
+                      <input class="checkbox__input" type="checkbox" checked />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text">Must have open house</span>
+                    </label>
+                    <label class="checkbox checkbox--bg-blue">
+                      <input class="checkbox__input" type="checkbox" />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text">
+                        Accepting backup offers
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="more-filters__box">
+                <div class="more-filters__top">
+                  <p class="more-filters__heading">Parking Spots</p>
+
+                  <div class="more-filters__wrap">
+                    <select class="more-filters__select mb-30">
+                      <option value="any">Any</option>
+                      <option value="any">Any</option>
+                      <option value="any">Any</option>
+                      <option value="any">Any</option>
+                    </select>
+                    <label class="checkbox checkbox--bg-blue mb-30">
+                      <input class="checkbox__input" type="checkbox" checked />
+                      <span class="checkbox__box"></span>
+                      <span class="checkbox__text">Must have garage</span>
+                    </label>
+
+                    <div class="more-filters__block">
+                      <span class="more-filters__name mb-13">Square Feet</span>
+
+                      <div class="more-filters__block-wrap">
+                        <select class="more-filters__select">
+                          <option value="any">No min</option>
+                          <option value="any">No min</option>
+                          <option value="any">No min</option>
+                        </select>
+                        <select class="more-filters__select">
+                          <option value="any">No max</option>
+                          <option value="any">No max</option>
+                          <option value="any">No max</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="more-filters__block">
+                      <span class="more-filters__name mb-13">Lot Size</span>
+
+                      <div class="more-filters__block-wrap">
+                        <select class="more-filters__select">
+                          <option value="any">No min</option>
+                          <option value="any">No min</option>
+                          <option value="any">No min</option>
+                        </select>
+                        <select class="more-filters__select">
+                          <option value="any">No max</option>
+                          <option value="any">No max</option>
+                          <option value="any">No max</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="more-filters__block">
+                      <span class="more-filters__name mb-13">Year Built</span>
+
+                      <div class="more-filters__block-wrap">
+                        <select class="more-filters__select">
+                          <option value="any">No min</option>
+                          <option value="any">No min</option>
+                          <option value="any">No min</option>
+                        </select>
+                        <select class="more-filters__select">
+                          <option value="any">No max</option>
+                          <option value="any">No max</option>
+                          <option value="any">No max</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="more-filters__block">
+                      <span class="more-filters__name mb-13">Basement</span>
+
+                      <label class="checkbox checkbox--bg-blue">
+                        <input
+                          class="checkbox__input"
+                          type="checkbox"
+                          checked
+                        />
+                        <span class="checkbox__box"></span>
+                        <span class="checkbox__text">Has basement</span>
+                      </label>
+                    </div>
+                    <div class="more-filters__block">
+                      <span class="more-filters__name mb-13">
+                        Number Of Stories
+                      </span>
+
+                      <label class="checkbox checkbox--bg-blue">
+                        <input
+                          class="checkbox__input"
+                          type="checkbox"
+                          checked
+                        />
+                        <span class="checkbox__box"></span>
+                        <span class="checkbox__text">Single-story only</span>
+                      </label>
+                    </div>
+                    <div class="more-filters__block">
+                      <span class="more-filters__name mb-13">
+                        Senior Living
+                      </span>
+
+                      <label class="checkbox checkbox--bg-blue">
+                        <input
+                          class="checkbox__input"
+                          type="checkbox"
+                          checked
+                        />
+                        <span class="checkbox__box"></span>
+                        <span class="checkbox__text">Hide 55+ communities</span>
+                      </label>
+                    </div>
+                    <div class="more-filters__block">
+                      <span class="more-filters__name mb-13">
+                        Other Amenities
+                      </span>
+                      <div class="more-filters__checkboxes">
+                        <label class="checkbox checkbox--bg-blue">
+                          <input
+                            class="checkbox__input"
+                            type="checkbox"
+                            checked
+                          />
+                          <span class="checkbox__box"></span>
+                          <span class="checkbox__text">Must have A/C</span>
+                        </label>
+                        <label class="checkbox checkbox--bg-blue">
+                          <input
+                            class="checkbox__input"
+                            type="checkbox"
+                            checked
+                          />
+                          <span class="checkbox__box"></span>
+                          <span class="checkbox__text">Must have pool</span>
+                        </label>
+                        <label class="checkbox checkbox--bg-blue">
+                          <input
+                            class="checkbox__input"
+                            type="checkbox"
+                            checked
+                          />
+                          <span class="checkbox__box"></span>
+                          <span class="checkbox__text">Waterfront</span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="more-filters__block">
+                      <span class="more-filters__name mb-13"> View </span>
+                      <div class="more-filters__checkboxes">
+                        <label class="checkbox checkbox--bg-blue">
+                          <input
+                            class="checkbox__input"
+                            type="checkbox"
+                            checked
+                          />
+                          <span class="checkbox__box"></span>
+                          <span class="checkbox__text">City</span>
+                        </label>
+                        <label class="checkbox checkbox--bg-blue">
+                          <input
+                            class="checkbox__input"
+                            type="checkbox"
+                            checked
+                          />
+                          <span class="checkbox__box"></span>
+                          <span class="checkbox__text">Mountain</span>
+                        </label>
+                        <label class="checkbox checkbox--bg-blue">
+                          <input
+                            class="checkbox__input"
+                            type="checkbox"
+                            checked
+                          />
+                          <span class="checkbox__box"></span>
+                          <span class="checkbox__text">Park</span>
+                        </label>
+                        <label class="checkbox checkbox--bg-blue">
+                          <input
+                            class="checkbox__input"
+                            type="checkbox"
+                            checked
+                          />
+                          <span class="checkbox__box"></span>
+                          <span class="checkbox__text">Water</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="more-filters__box">
+                <div class="more-filters__top">
+                  <p class="more-filters__heading">Keywords</p>
+
+                  <div class="more-filters__wrap">
+                    <input
+                      class="more-filters__input"
+                      type="text"
+                      placeholder="MLS #, yard, etc."
+                    />
+
+                    <button class="more-filters__btn btn" type="button">
+                      Apply
+                    </button>
+                    <button class="more-filters__reset" type="button">
+                      Reset all filters
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <button class="form-filters__btn-clear" type="button">
             <svg
